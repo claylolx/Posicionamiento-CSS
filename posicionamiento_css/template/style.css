@@ -1,0 +1,75 @@
+body {
+    max-width: 1600px;
+}
+.container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 20% 80%;
+    width: 100%;
+    height: 1000px;
+}
+
+.header {
+    height: 500px;
+    background-color: lightblue;
+}
+
+.purple {
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: palevioletred;
+}
+
+.box {
+    height: 500px;
+    background-color: red;
+    display: flex;
+}
+
+.footer {
+    height: 120px;
+    background-color: black;
+}
+
+.yellow-square {
+    background-color: yellow;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.blue-square {
+    background-color: blue;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    margin-bottom: 20px;
+}
+
+.red-square {
+    background-color: red;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.yellow-square .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    background-color: transparent;
+}
